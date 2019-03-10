@@ -21,6 +21,11 @@ class Header extends Component {
               <NavLink className="nav-link" to='/checkout'>Checkout</NavLink>
               </li>
             </ul>
+            <ul className="navbar-nav navbar-right">
+              <li className="nav-item">
+                <NavLink id="header-total" className="nav-link disabled" to='#'>Total: <span className="total">${this.props.total}</span></NavLink>
+              </li>
+            </ul>
           </div>
         </nav>
       </header>

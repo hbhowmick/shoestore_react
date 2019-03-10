@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import './index.css';
-import HomeTable from '../../components/homeTable'
+import ProductCard from '../../components/productCard';
+
 
 class Home extends Component {
   render() {
     return (
       <div className="row">
         <div className="col-md-12">
-          <HomeTable  />
+          <ProductCard products={this.props.products} addItem={this.props.addItem} />
         </div>
       </div>
     );

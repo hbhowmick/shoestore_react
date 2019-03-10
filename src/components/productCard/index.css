@@ -1,0 +1,32 @@
+.col-md-4 {
+  display: inline;
+}
+
+.top-margin-lg {
+  margin-top: 50px;
+}
+
+.card {
+  padding: 25px;
+  margin: 15px auto;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 110%;
+}
+
+.card-subtitle {
+  font-style: italic;
+  font-size: 90%;
+}
+
+.card>button {
+  display: block;
+  margin: 25px auto;
+  width: 80%;
+}
+
+label {
+  margin-top: 20px;
+}
